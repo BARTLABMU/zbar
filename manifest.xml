@@ -1,0 +1,17 @@
+<package>
+  <description brief="zbar">
+
+     zbar
+
+  </description>
+  <author>Johannes Meyer</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/zbar</url>
+  <export>
+    <cpp cflags="-I${prefix}/include" lflags="-L${prefix}/lib -lzbar" />
+  </export>
+
+</package>
+
+
